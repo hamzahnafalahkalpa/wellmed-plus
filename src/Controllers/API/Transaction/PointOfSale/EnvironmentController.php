@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\PointOfSale;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\PointOfSale;
 
-use Projects\Klinik\Controllers\API\Transaction\EnvironmentController as EnvTransaction;
+use Projects\WellmedPlus\Controllers\API\Transaction\EnvironmentController as EnvTransaction;
 
 class EnvironmentController extends EnvTransaction{
     protected function getPosTransactionPaginate(?callable $callback = null){        

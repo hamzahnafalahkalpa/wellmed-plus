@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
 use Hanafalah\ModuleMedicalItem\Contracts\Schemas\MedicalCompositionUnit;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Setting\MedicalCompositionUnit\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Setting\MedicalCompositionUnit\{
     ViewRequest, StoreRequest, DeleteRequest
 };
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Bank;
+namespace Projects\WellmedPlus\Requests\API\Setting\Bank;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModulePayment\Data\BankData;

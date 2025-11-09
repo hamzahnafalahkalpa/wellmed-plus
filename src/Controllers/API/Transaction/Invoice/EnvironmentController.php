@@ -1,16 +1,15 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\Invoice;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\Invoice;
 
 use Hanafalah\ModulePayment\Contracts\Schemas\Invoice;
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 
 class EnvironmentController extends ApiController{
     public function __construct(
         public Invoice $__schema,
     ){
         parent::__construct();
-        $this->userAttempt();
     }
 
     protected function commonConditional($query){
@@ -18,7 +17,7 @@ class EnvironmentController extends ApiController{
     }
 
     protected function commonRequest(){
-        
+        $this->userAttempt();
     }
 
     protected function getInvoiceList(?callable $callback = null){        

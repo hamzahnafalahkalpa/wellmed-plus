@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Transformers\Patient;
+namespace Projects\WellmedPlus\Transformers\Patient;
 
 use Hanafalah\ModulePatient\Resources\Patient\ViewPatient as PatientViewPatient;
 
@@ -11,7 +11,8 @@ class ViewPatient extends PatientViewPatient
         $arr = [
             'consument' => $this->relationValidation('consument', function () {
                 return $this->propExcludes($this->consument->toViewApi()->resolve(),'reference');
-            })
+            }),
+            'integration' => $this->integration
         ];
         $arr = $this->mergeArray(parent::toArray($request), $arr);
         return $arr;

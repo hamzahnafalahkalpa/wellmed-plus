@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Patient\Deposit;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Patient\Deposit;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

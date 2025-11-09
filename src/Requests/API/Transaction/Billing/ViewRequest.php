@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Transaction\Billing;
+namespace Projects\WellmedPlus\Requests\API\Transaction\Billing;
 
-use Projects\Klinik\Requests\API\Transaction\Billing\Environment;
+use Projects\WellmedPlus\Requests\API\Transaction\Billing\Environment;
 
 class ViewRequest extends Environment
 {

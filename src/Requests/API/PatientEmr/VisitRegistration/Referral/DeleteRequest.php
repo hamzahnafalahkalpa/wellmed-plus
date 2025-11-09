@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\VisitRegistration\Referral;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\VisitRegistration\Referral;
 
 class DeleteRequest extends EnvironmentRequest
 {

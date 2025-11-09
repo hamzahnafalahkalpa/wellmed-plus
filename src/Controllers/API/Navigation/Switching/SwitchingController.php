@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Navigation\Switching;
+namespace Projects\WellmedPlus\Controllers\API\Navigation\Switching;
 
 use Hanafalah\ModuleEmployee\Contracts\Schemas\Employee;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Navigation\Switching\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Navigation\Switching\{
     UpdateRequest
 };
 

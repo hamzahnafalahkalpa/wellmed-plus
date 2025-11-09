@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\Patient\EMR;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\EMR;
 
 use Illuminate\Http\Request;
-use Projects\Klinik\Controllers\API\ApiController as ApiBaseController;
-use Projects\Klinik\Resources\HistoryNaphier\ViewHistory;
+use Projects\WellmedPlus\Controllers\API\ApiController as ApiBaseController;
+use Projects\WellmedPlus\Resources\HistoryNaphier\ViewHistory;
 
 class HistoryController extends ApiBaseController {
     public function index(Request $request){

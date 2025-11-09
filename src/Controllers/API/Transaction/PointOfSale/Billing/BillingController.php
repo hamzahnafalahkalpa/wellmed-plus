@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\PointOfSale\Billing;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\PointOfSale\Billing;
 
-use Projects\Klinik\Controllers\API\Transaction\Billing\EnvironmentController;
-use Projects\Klinik\Requests\API\Transaction\PointOfSale\Billing\{
+use Projects\WellmedPlus\Controllers\API\Transaction\Billing\EnvironmentController;
+use Projects\WellmedPlus\Requests\API\Transaction\PointOfSale\Billing\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
 

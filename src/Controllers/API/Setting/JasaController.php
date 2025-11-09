@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
 use Hanafalah\ModuleRencanaAnggaran\Contracts\Schemas\Jasa;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Setting\Jasa\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Setting\Jasa\{
     ViewRequest, StoreRequest, DeleteRequest
 };
 

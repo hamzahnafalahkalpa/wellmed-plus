@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Supplier;
+namespace Projects\WellmedPlus\Requests\API\Setting\Supplier;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModuleProcurement\Contracts\Data\SupplierData;

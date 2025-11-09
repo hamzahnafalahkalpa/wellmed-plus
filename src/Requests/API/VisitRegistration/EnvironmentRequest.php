@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\VisitRegistration;
+namespace Projects\WellmedPlus\Requests\API\VisitRegistration;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

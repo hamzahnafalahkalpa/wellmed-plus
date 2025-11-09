@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Schemas\ModuleWarehouse;
+namespace Projects\WellmedPlus\Schemas\ModuleWarehouse;
 
 use Hanafalah\ModuleWarehouse\Contracts\Data\ModelHasRoomData;
 use Hanafalah\ModuleWarehouse\Schemas\Room as SchemasRoom;
 use Illuminate\Database\Eloquent\Model;
-use Projects\Klinik\Contracts\Schemas\ModuleWarehouse\Room as ModuleWarehouseRoom;
+use Projects\WellmedPlus\Contracts\Schemas\ModuleWarehouse\Room as ModuleWarehouseRoom;
 
 class Room extends SchemasRoom implements ModuleWarehouseRoom{
 

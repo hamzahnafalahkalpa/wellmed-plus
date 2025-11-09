@@ -1,12 +1,12 @@
 <?php
 
-namespace Projects\Klinik\Commands;
+namespace Projects\WellmedPlus\Commands;
 
 use Hanafalah\MicroTenant\Commands\Impersonate\ImpersonateMigrateCommand as ImpersonateImpersonateMigrateCommand;
 
 class ImpersonateMigrateCommand extends ImpersonateImpersonateMigrateCommand
 {
-    protected $signature = 'klinik:impersonate-migrate 
+    protected $signature = 'wellmed-plus:impersonate-migrate 
                                 {--app= : The type of the application}
                                 {--group= : The type of the group}
                                 {--tenant= : The type of the tenant}

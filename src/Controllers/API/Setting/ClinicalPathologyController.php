@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
 use Hanafalah\ModuleLabRadiology\Contracts\Schemas\ClinicalPathology;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Setting\ClinicalPathology\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Setting\ClinicalPathology\{
     ViewRequest, StoreRequest, DeleteRequest, ShowRequest
 };
 

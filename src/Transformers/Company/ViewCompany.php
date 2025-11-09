@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Transformers\Company;
+namespace Projects\WellmedPlus\Transformers\Company;
 
 use Hanafalah\ModulePayer\Resources\Company\ViewCompany as CompanyViewCompany;
 

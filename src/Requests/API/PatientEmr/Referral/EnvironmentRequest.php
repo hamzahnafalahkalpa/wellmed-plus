@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Referral;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Referral;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

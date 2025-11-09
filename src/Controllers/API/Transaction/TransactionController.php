@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction;
+namespace Projects\WellmedPlus\Controllers\API\Transaction;
 
-use Projects\Klinik\Requests\API\Transaction\{
+use Projects\WellmedPlus\Requests\API\Transaction\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
 

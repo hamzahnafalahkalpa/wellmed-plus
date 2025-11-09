@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\SupplyChain\Purchasing;
+namespace Projects\WellmedPlus\Controllers\API\SupplyChain\Purchasing;
 
 use Hanafalah\ModuleProcurement\Contracts\Schemas\Purchasing;
-use Projects\Klinik\Controllers\API\SupplyChain\ProcurementController;
-use Projects\Klinik\Requests\API\SupplyChain\Purchasing\{
+use Projects\WellmedPlus\Controllers\API\SupplyChain\ProcurementController;
+use Projects\WellmedPlus\Requests\API\SupplyChain\Purchasing\{
     ViewRequest, StoreRequest, UpdateRequest, DeleteRequest, ShowRequest
 };
 

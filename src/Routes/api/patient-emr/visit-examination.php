@@ -1,7 +1,22 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\VisitExaminationController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\PatientController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\VisitPatient\{
+    VisitRegistration\VisitExamination\Assessment\AssessmentController,
+    VisitRegistration\Referral\ReferralController,
+    VisitRegistration\VisitExamination\Examination\ExaminationController,
+    VisitRegistration\VisitExamination\VisitExaminationController,
+    VisitRegistration\VisitRegistrationController,
+    VisitPatientController
+};
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\VisitRegistration\{
+    VisitExamination\Assessment\AssessmentController as VRAssessmentController,
+    VisitExamination\Examination\ExaminationController as VRExaminationController,
+    VisitExamination\VisitExaminationController as VRVisitExaminationController,
+    Referral\ReferralController as VRReferralController,
+    VisitRegistrationController as VRVisitRegistrationController
+};
 
 /*
 |--------------------------------------------------------------------------
@@ -14,11 +29,11 @@ use Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\VisitExamination
 |
 */
 
-Route::apiResource('/visit-examination',VisitExaminationController::class)->parameters(['visit-examination' => 'id']);
+Route::apiResource('/visit-examination',VRVisitExaminationController::class)->parameters(['visit-examination' => 'id']);
 Route::group([
     "prefix" => "/visit-examination/{visit_examination_id}",
     "as"     => "visit-examination.show.",
 ],function() {
-    // Route::apiResource('/visit-examination',VisitExaminationController::class)->parameters(['visit-examination' => 'id']);
-    // Route::apiResource('/visit-examination/examination/{morph}',ExaminationController::class)->parameters(['visit-examination' => 'id']);
+    Route::post('/examination',[VRExaminationController::class,'store'])->name('examination.store');
+    Route::apiResource('/{morph}/assessment',VRAssessmentController::class)->parameters(['assessment' => 'id'])->only(['store','show','index']);
 });

@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\VisitPatient\VisitRegistration;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\VisitPatient\VisitRegistration;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitRegistration\EnvironmentRequest;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitRegistration\EnvironmentRequest;
 
 class ShowRequest extends EnvironmentRequest
 {

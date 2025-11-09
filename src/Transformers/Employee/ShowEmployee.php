@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Transformers\Employee;
+namespace Projects\WellmedPlus\Transformers\Employee;
 
 use Hanafalah\ModuleEmployee\Resources\Employee\ShowEmployee as EmployeeShowEmployee;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\MasterInformedConsent;
+namespace Projects\WellmedPlus\Requests\API\Setting\MasterInformedConsent;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

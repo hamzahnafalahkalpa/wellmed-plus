@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Providers;
+namespace Projects\WellmedPlus\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
-use Projects\Klinik\Klinik;
+use Projects\WellmedPlus\WellmedPlus;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -19,7 +19,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->__lower_package_name = Klinik::LOWER_CLASS_NAME;
+        $this->__lower_package_name = WellmedPlus::LOWER_CLASS_NAME;
         parent::boot();
     }
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\VisitRegistration;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\VisitRegistration;
 
-use Projects\Klinik\Controllers\API\PatientEmr\EnvironmentController as EnvEnvironmentController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\EnvironmentController as EnvEnvironmentController;
 
 class EnvironmentController extends EnvEnvironmentController{
     protected function getVisitRegistrationPaginate(?callable $callback = null){        
@@ -45,5 +45,15 @@ class EnvironmentController extends EnvEnvironmentController{
             $this->commonConditional($query);
             $callback($query);
         })->storeVisitRegistration();
+    }
+
+    protected function commonRequest(){
+        parent::commonRequest();
+        if (isset(request()->medic_service_label)){
+            $medic_service = $this->MedicServiceModel()->where('label',request()->medic_service_label)->firstOrFail();
+            request()->merge([
+                'medic_service_id' => $medic_service->id,
+            ]);
+        }
     }
 }

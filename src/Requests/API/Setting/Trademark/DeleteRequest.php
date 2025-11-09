@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Trademark;
+namespace Projects\WellmedPlus\Requests\API\Setting\Trademark;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

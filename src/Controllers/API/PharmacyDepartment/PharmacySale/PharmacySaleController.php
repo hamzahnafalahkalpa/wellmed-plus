@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PharmacyDepartment\PharmacySale;
+namespace Projects\WellmedPlus\Controllers\API\PharmacyDepartment\PharmacySale;
 
-use Projects\Klinik\Requests\API\PharmacyDepartment\PharmacySale\{
+use Projects\WellmedPlus\Requests\API\PharmacyDepartment\PharmacySale\{
     ViewRequest, StoreRequest, ShowRequest, DeleteRequest
 };
 

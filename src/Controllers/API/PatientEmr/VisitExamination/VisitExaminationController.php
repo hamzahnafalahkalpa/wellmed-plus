@@ -1,14 +1,14 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\VisitExamination;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\VisitExamination;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitExamination\{
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitExamination\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
 use Illuminate\Support\Facades\Hash;
-use Projects\Klinik\Jobs\LIS\RequestLabToLISJob;
-use Projects\Klinik\Jobs\SatuSehat\ObservationJob;
-use Projects\Klinik\Jobs\SatuSehat\SendSatuSehatJob;
+use Projects\WellmedPlus\Jobs\LIS\RequestLabToLISJob;
+use Projects\WellmedPlus\Jobs\SatuSehat\ObservationJob;
+use Projects\WellmedPlus\Jobs\SatuSehat\SendSatuSehatJob;
 
 class VisitExaminationController extends EnvironmentController
 {

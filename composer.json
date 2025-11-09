@@ -1,8 +1,8 @@
 {
-    "name": "projects/klinik",
+    "name": "projects/wellmed-plus",
     "autoload": {
         "psr-4": {
-            "Projects\\Klinik\\": "src/"
+            "Projects\\WellmedPlus\\": "src/"
         },
         "files":[
             "src/helper.php"
@@ -17,57 +17,120 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Projects\\Klinik\\Providers\\KlinikServiceProvider"
+                "Projects\\WellmedPlus\\Providers\\WellmedPlusServiceProvider"
             ]
         }
     },
     "require": {
-        "hanafalah/laravel-support": "dev-main",
-        "hanafalah/module-monitoring": "dev-main",
-        "hanafalah/module-encoding": "dev-main",
-        "hanafalah/module-patient": "dev-main",
-        "hanafalah/module-agent": "dev-main",
-        "hanafalah/module-employee": "dev-main",
-        "hanafalah/module-funding": "dev-main",
-        "hanafalah/module-lab-radiology": "dev-main",
-        "hanafalah/module-medic-service": "dev-main",
-        "hanafalah/module-medical-treatment": "dev-main",
-        "hanafalah/module-organization": "dev-main",
-        "hanafalah/module-payment": "dev-main",
-        "hanafalah/module-payer": "dev-main",
-        "hanafalah/module-people": "dev-main",
-        "hanafalah/module-profession": "dev-main",
-        "hanafalah/module-service": "dev-main",
-        "hanafalah/module-summary": "dev-main",
-        "hanafalah/module-transaction": "dev-main",
-        "hanafalah/module-treatment": "dev-main",
-        "hanafalah/module-warehouse": "dev-main",
-        "hanafalah/module-class-room": "dev-main",
-        "hanafalah/module-card-identity": "dev-main",
-        "hanafalah/module-mcu": "dev-main",
-        "hanafalah/module-item": "dev-main",
-        "hanafalah/module-medical-item": "dev-main",
-        "hanafalah/module-examination": "dev-main",
-        "hanafalah/module-procurement": "dev-main",
-        "hanafalah/module-medical-procurement": "dev-main",
-        "hanafalah/module-disease": "dev-main",
-        "hanafalah/module-informed-consent": "dev-main",
-        "hanafalah/module-icd": "dev-main",
-        "hanafalah/module-anatomy": "dev-main",
-        "hanafalah/module-physical-examination": "dev-main",
-        "hanafalah/module-opname-stock": "dev-main",
-        "hanafalah/module-distribution": "dev-main",
-        "hanafalah/module-pharmacy": "dev-main",
-        "hanafalah/module-tax": "dev-main",
-        "hanafalah/module-event": "dev-main",
-        "hanafalah/module-manufacture": "dev-main",
-        "hanafalah/module-handwriting": "dev-main",
-        "hanafalah/module-support": "dev-main",
-        "hanafalah/puskesmas-asset": "dev-main"
+        "wellmed-plus/ms-plus-emr": "dev-main",
+        "wellmed-plus/ms-plus-point-of-sale": "dev-main",
+        "wellmed-plus/ms-plus-scm": "dev-main",
+        "wellmed-plus/ms-plus-hr": "dev-main",
+        "wellmed-plus/ms-plus-apotek": "dev-main",
+        "wellmed-plus/ms-plus-organization": "dev-main",
+        "hanafalah/satu-sehat": "dev-main"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
+        "projects/wellmed-lite": {
+            "type": "path",
+            "url": "../wellmed-lite",
+            "options": {
+                "symlink": true
+            }
+        },
+        "projects/wellmed-plus": {
+            "type": "path",
+            "url": "../../projects/wellmed-plus",
+            "options": {
+                "symlink": true
+            }
+        },
+        "wellmed-plus/ms-plus-emr": {
+            "type": "path",
+            "url": "../../features/ms-plus-emr",
+            "options": {
+                "symlink": true
+            }
+        },
+        "wellmed-plus/ms-plus-apotek": {
+            "type": "path",
+            "url": "../../features/ms-plus-apotek",
+            "options": {
+                "symlink": true
+            }
+        },
+        "wellmed-plus/ms-plus-organization": {
+            "type": "path",
+            "url": "../../features/ms-plus-organization",
+            "options": {
+                "symlink": true
+            }
+        },
+        "wellmed-plus/ms-plus-point-of-sale": {
+            "type": "path",
+            "url": "../../features/ms-plus-point-of-sale",
+            "options": {
+                "symlink": true
+            }
+        },
+        "wellmed-plus/ms-plus-scm": {
+            "type": "path",
+            "url": "../../features/ms-plus-scm",
+            "options": {
+                "symlink": true
+            }
+        },
+        "wellmed-plus/ms-plus-hr": {
+            "type": "path",
+            "url": "../../features/ms-plus-hr",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanfalah/satu-sehat": {
+            "type": "path",
+            "url": "../../repositories/satu-sehat",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanfalah/wellmed-feature": {
+            "type": "path",
+            "url": "../../repositories/wellmed-feature",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanfalah/module-class-room": {
+            "type": "path",
+            "url": "../../repositories/module-class-room",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-funding": {
+            "type": "path",
+            "url": "../../repositories/module-funding",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-payer": {
+            "type": "path",
+            "url": "../../repositories/module-payer",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-organization": {
+            "type": "path",
+            "url": "../../repositories/module-organization",
+            "options": {
+                "symlink": true
+            }
+        },
         "hanafalah/api-helper": {
             "type": "path",
             "url": "../../repositories/api-helper",
@@ -78,13 +141,6 @@
         "hanafalah/laravel-feature": {
             "type": "path",
             "url": "../../repositories/laravel-feature",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-monitoring": {
-            "type": "path",
-            "url": "../../repositories/module-monitoring",
             "options": {
                 "symlink": true
             }
@@ -166,23 +222,9 @@
                 "symlink": true
             }
         },
-        "hanafalah/module-agent": {
-            "type": "path",
-            "url": "../../repositories/module-agent",
-            "options": {
-                "symlink": true
-            }
-        },
         "hanafalah/module-employee": {
             "type": "path",
             "url": "../../repositories/module-employee",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-funding": {
-            "type": "path",
-            "url": "../../repositories/module-funding",
             "options": {
                 "symlink": true
             }
@@ -208,23 +250,9 @@
                 "symlink": true
             }
         },
-        "hanafalah/module-organization": {
-            "type": "path",
-            "url": "../../repositories/module-organization",
-            "options": {
-                "symlink": true
-            }
-        },
         "hanafalah/module-payment": {
             "type": "path",
             "url": "../../repositories/module-payment",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-payer": {
-            "type": "path",
-            "url": "../../repositories/module-payer",
             "options": {
                 "symlink": true
             }
@@ -239,6 +267,13 @@
         "hanafalah/module-profession": {
             "type": "path",
             "url": "../../repositories/module-profession",
+            "options": {
+                "symlink": true
+            }
+        },
+        "hanafalah/module-procurement": {
+            "type": "path",
+            "url": "../../repositories/module-procurement",
             "options": {
                 "symlink": true
             }
@@ -278,23 +313,9 @@
                 "symlink": true
             }
         },
-        "hanafalah/module-class-room": {
-            "type": "path",
-            "url": "../../repositories/module-class-room",
-            "options": {
-                "symlink": true
-            }
-        },
         "hanafalah/module-card-identity": {
             "type": "path",
             "url": "../../repositories/module-card-identity",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-mcu": {
-            "type": "path",
-            "url": "../../repositories/module-mcu",
             "options": {
                 "symlink": true
             }
@@ -316,20 +337,6 @@
         "hanafalah/module-examination": {
             "type": "path",
             "url": "../../repositories/module-examination",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-procurement": {
-            "type": "path",
-            "url": "../../repositories/module-procurement",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-medical-procurement": {
-            "type": "path",
-            "url": "../../repositories/module-medical-procurement",
             "options": {
                 "symlink": true
             }
@@ -369,20 +376,6 @@
                 "symlink": true
             }
         },
-        "hanafalah/module-opname-stock": {
-            "type": "path",
-            "url": "../../repositories/module-opname-stock",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-distribution": {
-            "type": "path",
-            "url": "../../repositories/module-distribution",
-            "options": {
-                "symlink": true
-            }
-        },
         "hanafalah/module-pharmacy": {
             "type": "path",
             "url": "../../repositories/module-pharmacy",
@@ -397,27 +390,6 @@
                 "symlink": true
             }
         },
-        "hanafalah/module-rencana-anggaran": {
-            "type": "path",
-            "url": "../../repositories/module-rencana-anggaran",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-event": {
-            "type": "path",
-            "url": "../../repositories/module-event",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/module-manufacture": {
-            "type": "path",
-            "url": "../../repositories/module-manufacture",
-            "options": {
-                "symlink": true
-            }
-        },
         "hanafalah/module-handwriting": {
             "type": "path",
             "url": "../../repositories/module-handwriting",
@@ -428,13 +400,6 @@
         "hanafalah/module-support": {
             "type": "path",
             "url": "../../repositories/module-support",
-            "options": {
-                "symlink": true
-            }
-        },
-        "hanafalah/puskesmas-asset": {
-            "type": "path",
-            "url": "../../repositories/puskesmas-asset",
             "options": {
                 "symlink": true
             }

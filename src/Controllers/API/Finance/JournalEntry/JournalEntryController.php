@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Finance\JournalEntry;
+namespace Projects\WellmedPlus\Controllers\API\Finance\JournalEntry;
 
 use Hanafalah\ModulePayment\Contracts\Schemas\JournalEntry;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Finance\JournalEntry\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Finance\JournalEntry\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
 

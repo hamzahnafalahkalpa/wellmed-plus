@@ -6,12 +6,9 @@ Route::group([
     'prefix' => '/navigation',
     'as' => 'navigation.'
 ],function(){
-    include __DIR__.'/navigation/attendence.php';
-    include __DIR__.'/navigation/absence-request.php';
     include __DIR__.'/navigation/menu.php';
     include __DIR__.'/navigation/profile.php';
     include __DIR__.'/navigation/digital-sign.php';
     include __DIR__.'/navigation/notification.php';
-    include __DIR__.'/navigation/switching.php';
     include __DIR__.'/navigation/update-password.php';
 });

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\ItemManagement\Inventory;
+namespace Projects\WellmedPlus\Requests\API\ItemManagement\Inventory;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

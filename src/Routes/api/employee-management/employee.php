@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Projects\Klinik\Controllers\API\EmployeeManagement\Employee\EmployeeController;
+use Projects\WellmedPlus\Controllers\API\EmployeeManagement\Employee\EmployeeController;
 
 /*
 |--------------------------------------------------------------------------

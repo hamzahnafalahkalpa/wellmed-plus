@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Transaction\Refund;
+namespace Projects\WellmedPlus\Requests\API\Transaction\Refund;
 
-use Projects\Klinik\Requests\API\Transaction\Refund\Environment;
+use Projects\WellmedPlus\Requests\API\Transaction\Refund\Environment;
 
 class StoreRequest extends Environment
 {

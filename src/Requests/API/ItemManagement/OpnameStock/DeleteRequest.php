@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\ItemManagement\OpnameStock;
+namespace Projects\WellmedPlus\Requests\API\ItemManagement\OpnameStock;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 class DeleteRequest extends FormRequest

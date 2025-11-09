@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Building;
+namespace Projects\WellmedPlus\Requests\API\Setting\Building;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModuleWarehouse\Contracts\Data\BuildingData;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Models\ModuleWarehouse\ClassRoom;
+namespace Projects\WellmedPlus\Models\ModuleWarehouse\ClassRoom;
 
 use Hanafalah\ModuleClassRoom\Models\ClassRoom\ClassRoom as ClassRoomClassRoom;
 

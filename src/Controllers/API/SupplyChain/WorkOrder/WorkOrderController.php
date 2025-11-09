@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\SupplyChain\WorkOrder;
+namespace Projects\WellmedPlus\Controllers\API\SupplyChain\WorkOrder;
 
 use Hanafalah\ModuleProcurement\Contracts\Schemas\WorkOrder;
-use Projects\Klinik\Controllers\API\SupplyChain\ProcurementController;
-use Projects\Klinik\Requests\API\SupplyChain\WorkOrder\{
+use Projects\WellmedPlus\Controllers\API\SupplyChain\ProcurementController;
+use Projects\WellmedPlus\Requests\API\SupplyChain\WorkOrder\{
     ViewRequest, StoreRequest, DeleteRequest, ShowRequest
 };
 

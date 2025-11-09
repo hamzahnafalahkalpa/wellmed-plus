@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Models\ModuleItem\Item;
+namespace Projects\WellmedPlus\Models\ModuleItem\Item;
 
 use Hanafalah\ModuleItem\Models\Item as ModelsItem;
 

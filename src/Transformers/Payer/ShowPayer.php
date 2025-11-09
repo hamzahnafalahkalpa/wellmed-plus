@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Transformers\Payer;
+namespace Projects\WellmedPlus\Transformers\Payer;
 
 use Hanafalah\ModulePayer\Resources\Payer\ShowPayer as PayerShowPayer;
-use Projects\Klinik\Transformers\Company\ShowCompany;
+use Projects\WellmedPlus\Transformers\Company\ShowCompany;
 
 class ShowPayer extends ViewPayer
 {

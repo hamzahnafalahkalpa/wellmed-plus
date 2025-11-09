@@ -1,12 +1,12 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
 use Hanafalah\ModulePayer\Contracts\Schemas\Payer;
-use Projects\Klinik\Requests\API\Setting\Payer\{
+use Projects\WellmedPlus\Requests\API\Setting\Payer\{
     ViewRequest, StoreRequest, DeleteRequest
 };
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 
 class PayerController extends ApiController {
     public function __construct(

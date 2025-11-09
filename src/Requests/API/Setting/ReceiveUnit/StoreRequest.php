@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\ReceiveUnit;
+namespace Projects\WellmedPlus\Requests\API\Setting\ReceiveUnit;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModuleProcurement\Contracts\Data\ReceiveUnitData;

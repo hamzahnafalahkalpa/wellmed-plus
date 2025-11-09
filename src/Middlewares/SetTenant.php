@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Middlewares;
+namespace Projects\WellmedPlus\Middlewares;
 
 use Closure;
 use Illuminate\Http\Request;

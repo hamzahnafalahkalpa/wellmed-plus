@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\PaymentMethod;
+namespace Projects\WellmedPlus\Requests\API\Setting\PaymentMethod;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\OpnameStock;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\OpnameStock;
 
 use Hanafalah\ModuleOpnameStock\Contracts\Schemas\OpnameStock;
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 
 class EnvironmentController extends ApiController
 {

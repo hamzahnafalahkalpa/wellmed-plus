@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Transaction\Invoice;
+namespace Projects\WellmedPlus\Requests\API\Transaction\Invoice;
 
-use Projects\Klinik\Requests\API\Transaction\Invoice\Environment;
+use Projects\WellmedPlus\Requests\API\Transaction\Invoice\Environment;
 
 class StoreRequest extends Environment
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\SupplyChain\WorkOrder;
+namespace Projects\WellmedPlus\Requests\API\SupplyChain\WorkOrder;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

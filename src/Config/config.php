@@ -1,15 +1,15 @@
 <?php
 
-use Projects\Klinik\{
+use Projects\WellmedPlus\{
     Contracts, Models, Commands
 };
 
 return [
-    "namespace"     => "Projects\Klinik",
-    "service_name"  => "Klinik",
+    "namespace"     => "Projects\WellmedPlus",
+    "service_name"  => "WellmedPlus",
     "paths"         => [
         "local_path"   => 'projects',
-        "base_path"    => __DIR__.'\\..\\'
+        "base_path"    => __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR
     ],
     "libs"           => [
         'migration' => 'Database/Migrations',
@@ -70,5 +70,5 @@ return [
     ],
     "encodings" => [
     ],
-    "provider" => "Projects\Klinik\\Providers\\KlinikServiceProvider"
+    "provider" => "Projects\WellmedPlus\\Providers\\WellmedPlusServiceProvider"
 ];

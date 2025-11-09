@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Screening;
+namespace Projects\WellmedPlus\Requests\API\Setting\Screening;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

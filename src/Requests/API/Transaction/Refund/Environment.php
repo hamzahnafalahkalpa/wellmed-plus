@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Transaction\Refund;
+namespace Projects\WellmedPlus\Requests\API\Transaction\Refund;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

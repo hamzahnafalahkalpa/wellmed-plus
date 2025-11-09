@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\MedicalItem;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\MedicalItem;
 
 use Hanafalah\ApiHelper\Requests\Token\ShowRequest;
 use Hanafalah\ModuleMedicalItem\Contracts\Schemas\MedicalItem;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\ItemManagement\MedicalItem\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\ItemManagement\MedicalItem\{
     DeleteRequest, StoreRequest, ViewRequest
 };
 

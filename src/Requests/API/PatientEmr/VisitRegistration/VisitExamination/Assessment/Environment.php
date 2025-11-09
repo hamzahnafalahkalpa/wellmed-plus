@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\VisitRegistration\VisitExamination\Assessment;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\VisitRegistration\VisitExamination\Assessment;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitExamination\EnvironmentRequest;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitExamination\EnvironmentRequest;
 
 class Environment extends FormRequest
 {

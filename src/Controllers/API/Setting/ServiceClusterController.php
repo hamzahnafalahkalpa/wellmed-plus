@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
 use Hanafalah\ModuleMedicService\Contracts\Schemas\ServiceCluster as SchemasServiceCluster;
 use Hanafalah\ModulePatient\Enums\PatientType\Flag;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Setting\ServiceCluster\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Setting\ServiceCluster\{
     ViewRequest, StoreRequest, DeleteRequest
 };
 

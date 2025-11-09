@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination;
+namespace Projects\WellmedPlus\Controllers\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination;
 
-use Projects\Klinik\Requests\API\PatientEmr\Patient\VisitPatient\VisitRegistration\VisitExamination\Examination\{
+use Projects\WellmedPlus\Requests\API\PatientEmr\Patient\VisitPatient\VisitRegistration\VisitExamination\Examination\{
     StoreRequest, UpdateRequest
 };
-use Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\Examination\EnvironmentController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\VisitExamination\Examination\EnvironmentController;
 
 class ExaminationController extends EnvironmentController
 {

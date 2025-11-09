@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Projects\Klinik\Controllers\API\PatientEmr\Patient\PatientController;
-use Projects\Klinik\Controllers\API\PatientEmr\Patient\VisitPatient\{
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\PatientController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\VisitPatient\{
     VisitRegistration\VisitExamination\Assessment\AssessmentController,
     VisitRegistration\Referral\ReferralController,
     VisitRegistration\VisitExamination\Examination\ExaminationController,
@@ -10,12 +10,15 @@ use Projects\Klinik\Controllers\API\PatientEmr\Patient\VisitPatient\{
     VisitRegistration\VisitRegistrationController,
     VisitPatientController
 };
-use Projects\Klinik\Controllers\API\PatientEmr\Patient\VisitRegistration\{
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\VisitRegistration\{
     VisitExamination\Assessment\AssessmentController as VRAssessmentController,
     VisitExamination\Examination\ExaminationController as VRExaminationController,
     VisitExamination\VisitExaminationController as VRVisitExaminationController,
     Referral\ReferralController as VRReferralController,
     VisitRegistrationController as VRVisitRegistrationController
+};
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\VisitExamination\{
+    VisitExaminationController as PatientVisitExaminationController
 };
 
 /*
@@ -71,4 +74,6 @@ Route::group([
             Route::apiResource('/{morph}/assessment',VRAssessmentController::class)->parameters(['assessment' => 'id'])->only(['store','show','index']);
         });
     });
+
+    Route::apiResource('/visit-examination',PatientVisitExaminationController::class)->parameters(['visit-examination' => 'id']);
 });

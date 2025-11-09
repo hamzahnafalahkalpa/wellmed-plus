@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Jasa;
+namespace Projects\WellmedPlus\Requests\API\Setting\Jasa;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModuleRencanaAnggaran\Data\JasaData;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\Refund;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\Refund;
 
-use Projects\Klinik\Controllers\API\Transaction\BaseWalletEnvironmentController as BaseEnv;
+use Projects\WellmedPlus\Controllers\API\Transaction\BaseWalletEnvironmentController as BaseEnv;
 
 class EnvironmentController extends BaseEnv{
     protected function getRefundList(?callable $callback = null){        

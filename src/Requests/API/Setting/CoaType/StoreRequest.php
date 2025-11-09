@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\CoaType;
+namespace Projects\WellmedPlus\Requests\API\Setting\CoaType;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModulePayment\Data\CoaTypeData;

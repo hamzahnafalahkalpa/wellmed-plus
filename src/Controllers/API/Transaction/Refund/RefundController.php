@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\Refund;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\Refund;
 
-use Projects\Klinik\Requests\API\Transaction\Refund\{
+use Projects\WellmedPlus\Requests\API\Transaction\Refund\{
     ViewRequest, ShowRequest
 };
 

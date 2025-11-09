@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
 use Hanafalah\ModuleItem\Contracts\Schemas\UnitOfMeasure;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Setting\UnitOfMeasure\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Setting\UnitOfMeasure\{
     ViewRequest, StoreRequest, DeleteRequest
 };
 

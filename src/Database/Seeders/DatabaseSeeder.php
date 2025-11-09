@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Database\Seeders;
+namespace Projects\WellmedPlus\Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 

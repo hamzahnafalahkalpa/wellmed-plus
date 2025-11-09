@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 
 class ExaminationController extends ApiController{
 }

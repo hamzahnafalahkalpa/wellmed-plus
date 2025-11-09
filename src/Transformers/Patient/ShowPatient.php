@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Transformers\Patient;
+namespace Projects\WellmedPlus\Transformers\Patient;
 
 use Hanafalah\ModulePatient\Resources\Patient\ShowPatient as PatientShowPatient;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\UsageLocation;
+namespace Projects\WellmedPlus\Requests\API\Setting\UsageLocation;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

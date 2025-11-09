@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use Projects\Klinik\Controllers\API\Transaction\Invoice\{
+use Projects\WellmedPlus\Controllers\API\Transaction\Invoice\{
     Refund\RefundController,
     InvoiceController
 };

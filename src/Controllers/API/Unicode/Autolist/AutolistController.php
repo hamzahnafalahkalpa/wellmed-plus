@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Unicode\Autolist;
+namespace Projects\WellmedPlus\Controllers\API\Unicode\Autolist;
 
 use Hanafalah\LaravelHasProps\Models\Scopes\HasCurrentScope;
 use Hanafalah\LaravelSupport\Concerns\Support\HasCache;
 use Illuminate\Http\Request;
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 use Illuminate\Support\Str;
 use Hanafalah\ModuleMedicService\Enums\Label as MedicServiceLabel;
 
@@ -55,7 +55,10 @@ class AutolistController extends ApiController{
                 });
             break;
             case 'MedicService':
-                return $this->callAutolist($morph,function($query){
+                $schema = app(config('app.contracts.'.$morph));
+                $is_for_registration = isset(request()->is_for_visit_registration) && request()->is_for_visit_registration;
+                if ($is_for_registration) $schema->setIsParentOnly(false);
+                return $schema->autolist(request()->type,function($query) use ($is_for_registration){
                     $query->when(isset(request()->is_for_referral) && request()->is_for_referral,function($query){
                         $query->whereIn('label',[
                             MedicServiceLabel::OUTPATIENT->value,
@@ -67,11 +70,27 @@ class AutolistController extends ApiController{
                             MedicServiceLabel::EMERGENCY_UNIT->value,
                             MedicServiceLabel::TREATMENT_ROOM->value
                         ]);
+                    })->when($is_for_registration,function($query){
+                        $query->whereIn('label',[
+                            MedicServiceLabel::INPATIENT->value,
+                            MedicServiceLabel::MCU->value,
+                            MedicServiceLabel::RADIOLOGY->value,
+                            MedicServiceLabel::VERLOS_KAMER->value,
+                            MedicServiceLabel::EMERGENCY_UNIT->value,
+                            MedicServiceLabel::TREATMENT_ROOM->value,
+                            'UMUM', 'ORTHOPEDI', 'SUNAT', 'KECANTIKAN', 'MATA', 'THT', 'INTERNIS', 'GIGI & MULUT', 'KIA', 'LANSIA', 'ADMIN', 'VACCINE', 'MTBS'
+                        ]);
                     })->when(isset(request()->exclude_id),function($query){
                         $ids = $this->mustArray(request()->exclude_id);
                         $query->whereNotIn('id',$ids);
                     });
                 });
+            break;
+            case 'HeadToToe':
+                $schema = app(config('app.contracts.'.$morph));
+                $is_flatten = isset(request()->is_flatten) && request()->is_flatten;
+                if ($is_flatten) $schema->setIsParentOnly(false);
+                return $schema->autolist(request()->type);
             break;
             case 'Treatment':
                 return $this->callAutolist($morph,function($query){
@@ -124,16 +143,63 @@ class AutolistController extends ApiController{
                     }else{
                         $query->select('subdistricts.*','subdistricts.name as name');
                     }
-                    if (isset(request()->search_name)){
-                        $query->where(function($query) use ($morph){
-                            $query->whereLike('provinces.name',request()->search_name)
-                                  ->orWhereLike('districts.name',request()->search_name)
-                                  ->orWhereLike('subdistricts.name',request()->search_name);
-                            if ($morph == 'Village'){
-                                $query->orWhereLike('villages.name',request()->search_name);
+                    if (isset(request()->search_name)) {
+                        $search = strtolower(request()->search_name);
+
+                        $query->where(function ($query) use ($morph, $search) {
+                            $query->whereRaw('LOWER(provinces.name) LIKE ?', ["%{$search}%"])
+                                ->orWhereRaw('LOWER(districts.name) LIKE ?', ["%{$search}%"])
+                                ->orWhereRaw('LOWER(subdistricts.name) LIKE ?', ["%{$search}%"]);
+
+                            if ($morph === 'Village') {
+                                $query->orWhereRaw('LOWER(villages.name) LIKE ?', ["%{$search}%"]);
                             }
                         });
                     }
+                });
+            break;
+            case 'Patient':
+                if (isset(request()->credential)){
+                    $credential = request()->credential;
+                    switch ($credential) {
+                        case 'nik':
+                            request()->replace([
+                                'search_nik' => request()->search_value
+                            ]);
+                        break;
+                        case 'nik_ibu':
+                            request()->replace([
+                                'search_nik_ibu' => request()->search_value
+                            ]);
+                        break;
+                        case 'passport':
+                            request()->replace([
+                                'search_passport' => request()->search_value
+                            ]);
+                        break;
+                    }
+                    $result = $this->callAutolist($morph);
+                    if (count($result) > 0){
+                        $result = $result[0];
+                        return [
+                            'id'         => $result['id'],
+                            'ihs_number' => $result['card_identity']['ihs_number'] ?? null
+                        ];
+                    }
+                    return $result;
+                }else{
+                    return $this->callAutolist($morph);
+                }
+            break;
+            case 'Assessment':
+                $patient_id = request()->search_patient_id;
+                request()->merge([
+                    'search_patient_id' => null
+                ]);
+                return $this->callAutolist($morph,function($query) use ($patient_id){
+                    $query->whereHas('patientSummary',function($query) use ($patient_id){
+                        $query->where('patient_id',$patient_id);
+                    });
                 });
             break;
             default:

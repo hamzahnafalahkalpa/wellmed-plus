@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Navigation\DigitalSign;
+namespace Projects\WellmedPlus\Requests\API\Navigation\DigitalSign;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\Inventory\StuffSupply;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\Inventory\StuffSupply;
 
 use Hanafalah\ModuleItem\Contracts\Schemas\StuffSupply;
 use Hanafalah\ModuleItem\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\ItemManagement\Inventory\StuffSupply\{
+use Projects\WellmedPlus\Requests\API\ItemManagement\Inventory\StuffSupply\{
     ViewRequest, StoreRequest, DeleteRequest
 };
 

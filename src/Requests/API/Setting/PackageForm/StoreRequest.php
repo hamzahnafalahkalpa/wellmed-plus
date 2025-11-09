@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\PackageForm;
+namespace Projects\WellmedPlus\Requests\API\Setting\PackageForm;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

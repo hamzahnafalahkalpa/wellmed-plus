@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\SupplyChain\ReceiveOrder;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\SupplyChain\ReceiveOrder;
 
 use Hanafalah\ModuleProcurement\Contracts\Schemas\ReceiveOrder;
-use Projects\Klinik\Controllers\API\ItemManagement\SupplyChain\ProcurementController;
-use Projects\Klinik\Requests\API\ItemManagement\SupplyChain\ReceiveOrder\{
+use Projects\WellmedPlus\Controllers\API\ItemManagement\SupplyChain\ProcurementController;
+use Projects\WellmedPlus\Requests\API\ItemManagement\SupplyChain\ReceiveOrder\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
 

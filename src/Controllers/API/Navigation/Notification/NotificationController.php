@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Navigation\Notification;
+namespace Projects\WellmedPlus\Controllers\API\Navigation\Notification;
 
 use Hanafalah\ModuleEmployee\Contracts\Schemas\Employee;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Navigation\Profile\ShowRequest;
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Navigation\Profile\ShowRequest;
 
 class NotificationController extends ApiController{
     public function __construct(

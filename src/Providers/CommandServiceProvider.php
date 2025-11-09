@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Providers;
+namespace Projects\WellmedPlus\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Projects\Klinik\Commands;
+use Projects\WellmedPlus\Commands;
 
 class CommandServiceProvider extends ServiceProvider
 {
@@ -25,7 +25,7 @@ class CommandServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->commands(config('klinik.commands', $this->__commands));
+        $this->commands(config('wellmed-plus.commands', $this->__commands));
     }
 
     public function provides()

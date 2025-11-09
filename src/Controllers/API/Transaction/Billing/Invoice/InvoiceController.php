@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\Billing\Invoice;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\Billing\Invoice;
 
-use Projects\Klinik\Requests\API\Transaction\Invoice\{
+use Projects\WellmedPlus\Requests\API\Transaction\Invoice\{
     ViewRequest, ShowRequest
 };
-use Projects\Klinik\Controllers\API\Transaction\Invoice\EnvironmentController;
+use Projects\WellmedPlus\Controllers\API\Transaction\Invoice\EnvironmentController;
 
 class InvoiceController extends EnvironmentController{
     public function index(ViewRequest $request){

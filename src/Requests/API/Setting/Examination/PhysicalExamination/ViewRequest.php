@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Examination\PhysicalExamination;
+namespace Projects\WellmedPlus\Requests\API\Setting\Examination\PhysicalExamination;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Data\ModulePatient;
+namespace Projects\WellmedPlus\Data\ModulePatient;
 
 use Hanafalah\ModulePatient\Data\PractitionerEvaluationData as ModulePatientDataPractitionerEvaluationData;
 use Hanafalah\ModulePayment\Data\PaymentDetailData;
-use Projects\Klinik\Contracts\Data\ModulePatient\PractitionerEvaluationData as DataPractitionerEvaluationData;
+use Projects\WellmedPlus\Contracts\Data\ModulePatient\PractitionerEvaluationData as DataPractitionerEvaluationData;
 use Spatie\LaravelData\Attributes\DataCollectionOf;
 use Spatie\LaravelData\Attributes\MapInputName;
 use Spatie\LaravelData\Attributes\MapName;

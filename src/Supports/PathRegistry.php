@@ -1,6 +1,6 @@
 <?php 
 
-namespace Projects\Klinik\Supports;
+namespace Projects\WellmedPlus\Supports;
 
 class PathRegistry
 {

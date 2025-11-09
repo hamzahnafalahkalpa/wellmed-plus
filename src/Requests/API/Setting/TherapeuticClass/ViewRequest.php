@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\TherapeuticClass;
+namespace Projects\WellmedPlus\Requests\API\Setting\TherapeuticClass;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

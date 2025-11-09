@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\AccountGroup;
+namespace Projects\WellmedPlus\Requests\API\Setting\AccountGroup;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModulePayment\Data\AccountGroupData;

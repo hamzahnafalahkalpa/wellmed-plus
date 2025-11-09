@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\Assessment;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\VisitExamination\Assessment;
 
-use Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\Assessment\EnvironmentController;
-use Projects\Klinik\Requests\API\PatientEmr\VisitExamination\Assessment\{
+use Projects\WellmedPlus\Controllers\API\PatientEmr\VisitExamination\Assessment\EnvironmentController;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitExamination\Assessment\{
     ViewRequest, StoreRequest, ShowRequest
 };
 

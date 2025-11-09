@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Models\ModuleTransaction;
+namespace Projects\WellmedPlus\Models\ModuleTransaction;
 
 use Hanafalah\ModuleTransaction\Models\Transaction\Transaction as TransactionTransaction;
 

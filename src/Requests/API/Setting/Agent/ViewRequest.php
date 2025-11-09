@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Agent;
+namespace Projects\WellmedPlus\Requests\API\Setting\Agent;
 
 use Illuminate\Support\Facades\Gate;
 use Hanafalah\LaravelSupport\Requests\FormRequest;

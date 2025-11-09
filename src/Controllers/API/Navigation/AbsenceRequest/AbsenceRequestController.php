@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Navigation\AbsenceRequest;
+namespace Projects\WellmedPlus\Controllers\API\Navigation\AbsenceRequest;
 
 use Hanafalah\ModuleEmployee\Contracts\Schemas\AbsenceRequest;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Navigation\AbsenceRequest\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Navigation\AbsenceRequest\{
     StoreRequest
 };
 

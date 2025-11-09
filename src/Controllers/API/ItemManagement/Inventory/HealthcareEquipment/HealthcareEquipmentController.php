@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\Inventory\HealthcareEquipment;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\Inventory\HealthcareEquipment;
 
 use Hanafalah\ModuleMedicalItem\Contracts\Schemas\HealthcareEquipment;
 use Hanafalah\ModuleItem\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\ItemManagement\Inventory\HealthcareEquipment\{
+use Projects\WellmedPlus\Requests\API\ItemManagement\Inventory\HealthcareEquipment\{
     ViewRequest, StoreRequest, DeleteRequest
 };
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PharmacyDepartment\Dispense;
+namespace Projects\WellmedPlus\Requests\API\PharmacyDepartment\Dispense;
 
-use Projects\Klinik\Requests\API\VisitRegistration\EnvironmentRequest;
+use Projects\WellmedPlus\Requests\API\VisitRegistration\EnvironmentRequest;
 
 class ViewRequest extends EnvironmentRequest
 {

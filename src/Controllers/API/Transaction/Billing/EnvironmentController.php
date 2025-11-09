@@ -1,16 +1,15 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\Billing;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\Billing;
 
 use Hanafalah\ModulePayment\Contracts\Schemas\Billing;
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 
 class EnvironmentController extends ApiController{
     public function __construct(
         public Billing $__schema,
     ){
         parent::__construct();
-        $this->userAttempt();
     }
 
     protected function commonConditional($query){
@@ -18,7 +17,7 @@ class EnvironmentController extends ApiController{
     }
 
     protected function commonRequest(){
-        
+        $this->userAttempt();
     }
 
     protected function getBillingPaginate(?callable $callback = null){        

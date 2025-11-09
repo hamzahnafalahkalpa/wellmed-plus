@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\Patient\Deposit;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\Deposit;
 
-use Projects\Klinik\Controllers\API\Transaction\Deposit\EnvironmentController;
-use Projects\Klinik\Requests\API\PatientEmr\Patient\Deposit\{
+use Projects\WellmedPlus\Controllers\API\Transaction\Deposit\EnvironmentController;
+use Projects\WellmedPlus\Requests\API\PatientEmr\Patient\Deposit\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
 

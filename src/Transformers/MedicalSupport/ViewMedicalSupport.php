@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Transformers\MedicalSupport;
+namespace Projects\WellmedPlus\Transformers\MedicalSupport;
 
 use Hanafalah\LaravelSupport\Resources\ApiResource;
 use Illuminate\Http\Request;

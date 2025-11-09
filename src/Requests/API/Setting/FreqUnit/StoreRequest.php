@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\FreqUnit;
+namespace Projects\WellmedPlus\Requests\API\Setting\FreqUnit;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\SupplyChain\PurchaseRequest;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\SupplyChain\PurchaseRequest;
 
 use Hanafalah\ModuleProcurement\Contracts\Schemas\PurchaseRequest;
-use Projects\Klinik\Requests\API\ItemManagement\SupplyChain\PurchaseRequest\{
+use Projects\WellmedPlus\Requests\API\ItemManagement\SupplyChain\PurchaseRequest\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
-use Projects\Klinik\Controllers\API\ItemManagement\SupplyChain\ProcurementController;
+use Projects\WellmedPlus\Controllers\API\ItemManagement\SupplyChain\ProcurementController;
 
 class PurchaseRequestController extends ProcurementController
 {

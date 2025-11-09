@@ -1,6 +1,6 @@
 <?php 
 
-namespace Projects\Klinik\Supports;
+namespace Projects\WellmedPlus\Supports;
 
 use Hanafalah\LaravelSupport\Concerns\Support\HasCall;
 use Illuminate\Support\Str;
@@ -18,7 +18,7 @@ trait LocalPath {
     }
 
     public function getConfig(string $root = ''){
-        return config('klinik'.(
+        return config('wellmed-plus'.(
             $root == '' ? '' : '.'.$root
         ));
     }

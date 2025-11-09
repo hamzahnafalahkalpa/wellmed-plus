@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting\Examination;
+namespace Projects\WellmedPlus\Controllers\API\Setting\Examination;
 
 use Hanafalah\ModuleExamination\Contracts\Schemas\VitalSignStuff;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Setting\Examination\VitalSignStuff\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Setting\Examination\VitalSignStuff\{
     ViewRequest, StoreRequest
 };
 

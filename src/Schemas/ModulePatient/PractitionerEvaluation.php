@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Schemas\ModulePatient;
+namespace Projects\WellmedPlus\Schemas\ModulePatient;
 
 use Hanafalah\ModulePatient\Schemas\PractitionerEvaluation as SchemasPractitionerEvaluation;
 use Illuminate\Database\Eloquent\Model;
-use Projects\Klinik\Contracts\Schemas\ModulePatient\PractitionerEvaluation as ContractPractitionerEvaluation;
+use Projects\WellmedPlus\Contracts\Schemas\ModulePatient\PractitionerEvaluation as ContractPractitionerEvaluation;
 
 class PractitionerEvaluation extends SchemasPractitionerEvaluation implements ContractPractitionerEvaluation 
 {

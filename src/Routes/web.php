@@ -2,7 +2,7 @@
 
 use Hanafalah\LaravelSupport\Facades\LaravelSupport;
 use Illuminate\Support\Facades\Route;
-use Projects\Klinik\Middlewares\SetTenant;
+use Projects\WellmedPlus\Middlewares\SetTenant;
 
 Route::group([
     'middleware' => ['auth:sanctum', 'verified', SetTenant::class],

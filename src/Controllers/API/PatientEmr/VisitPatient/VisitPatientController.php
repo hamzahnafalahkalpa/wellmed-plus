@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\VisitPatient;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\VisitPatient;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitPatient\{
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitPatient\{
     ShowRequest, ViewRequest, DeleteRequest, StoreRequest
 };
 

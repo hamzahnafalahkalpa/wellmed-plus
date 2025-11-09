@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\CompositionUnit;
+namespace Projects\WellmedPlus\Requests\API\Setting\CompositionUnit;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

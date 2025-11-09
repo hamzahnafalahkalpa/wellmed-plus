@@ -1,13 +1,14 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\Invoice;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\Invoice;
 
-use Projects\Klinik\Requests\API\Transaction\Invoice\{
+use Projects\WellmedPlus\Requests\API\Transaction\Invoice\{
     ViewRequest, ShowRequest
 };
 
 class InvoiceController extends EnvironmentController{
     protected function commonConditional($query){
+        parent::commonConditional($query);
         $query->whereNotNull('reported_at')->where('props->is_deferred',false);
     }
 

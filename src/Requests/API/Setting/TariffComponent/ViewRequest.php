@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\TariffComponent;
+namespace Projects\WellmedPlus\Requests\API\Setting\TariffComponent;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PharmacyDepartment\Frontline;
+namespace Projects\WellmedPlus\Requests\API\PharmacyDepartment\Frontline;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitExamination\EnvironmentRequest;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitExamination\EnvironmentRequest;
 
 class ShowRequest extends EnvironmentRequest
 {

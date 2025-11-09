@@ -1,12 +1,12 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction;
+namespace Projects\WellmedPlus\Controllers\API\Transaction;
 
 use Hanafalah\ModulePayment\Contracts\Schemas\PosTransaction;
 use Hanafalah\ModuleTransaction\Contracts\Schemas\{
     Transaction
 };
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 
 class EnvironmentController extends ApiController{
     public function __construct(
@@ -14,7 +14,6 @@ class EnvironmentController extends ApiController{
         public PosTransaction $__pos_schema
     ){
         parent::__construct();
-        $this->userAttempt();
     }
 
     protected function commonConditional($query){
@@ -22,7 +21,7 @@ class EnvironmentController extends ApiController{
     }
 
     protected function commonRequest(){
-        
+        $this->userAttempt();
     }
 
     protected function getTransactionPaginate(?callable $callback = null){        

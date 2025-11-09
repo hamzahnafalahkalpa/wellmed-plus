@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\OpnameStock;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\OpnameStock;
 
-use Projects\Klinik\Requests\API\ItemManagement\OpnameStock\{
+use Projects\WellmedPlus\Requests\API\ItemManagement\OpnameStock\{
     DeleteRequest, StoreRequest, ViewRequest, ShowRequest
 };
 

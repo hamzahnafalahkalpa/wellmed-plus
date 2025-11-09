@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Finance\JournalEntry;
+namespace Projects\WellmedPlus\Requests\API\Finance\JournalEntry;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

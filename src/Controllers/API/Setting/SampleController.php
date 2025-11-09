@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 use Hanafalah\ModuleLabRadiology\Contracts\Schemas\Sample as SchemasSample;
-use Projects\Klinik\Requests\API\Setting\Sample\{
+use Projects\WellmedPlus\Requests\API\Setting\Sample\{
     ViewRequest, StoreRequest, DeleteRequest, ShowRequest
 };
 class SampleController extends ApiController{

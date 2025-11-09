@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\SupplyChain;
+namespace Projects\WellmedPlus\Controllers\API\SupplyChain;
 
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 use Illuminate\Support\Str;
 
 class ProcurementController extends ApiController{

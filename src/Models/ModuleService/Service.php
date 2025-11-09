@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Models\ModuleService;
+namespace Projects\WellmedPlus\Models\ModuleService;
 
 use Hanafalah\ModuleService\Models\Service as ModelsService;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\Referral;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\Referral;
 
-use Projects\Klinik\Controllers\API\PatientEmr\EnvironmentController as EnvEnvironmentController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\EnvironmentController as EnvEnvironmentController;
 
 class EnvironmentController extends EnvEnvironmentController{
     protected function getReferralPaginate(?callable $callback = null){        

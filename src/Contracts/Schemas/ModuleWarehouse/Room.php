@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Contracts\Schemas\ModuleWarehouse;
+namespace Projects\WellmedPlus\Contracts\Schemas\ModuleWarehouse;
 
 use Hanafalah\ModuleWarehouse\Contracts\Schemas\Room as SchemasRoom;
 

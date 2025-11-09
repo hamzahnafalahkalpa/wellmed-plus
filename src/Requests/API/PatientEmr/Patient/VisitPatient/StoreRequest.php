@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Patient\VisitPatient;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Patient\VisitPatient;
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitPatient\EnvironmentRequest;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitPatient\EnvironmentRequest;
 
 class StoreRequest extends EnvironmentRequest
 {

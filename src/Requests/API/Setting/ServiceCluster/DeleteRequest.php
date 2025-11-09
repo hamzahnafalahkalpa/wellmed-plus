@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\ServiceCluster;
+namespace Projects\WellmedPlus\Requests\API\Setting\ServiceCluster;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

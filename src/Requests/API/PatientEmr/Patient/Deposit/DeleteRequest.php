@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Patient\Deposit;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Patient\Deposit;
 
-use Projects\Klinik\Requests\API\Transaction\Deposit\Environment;
+use Projects\WellmedPlus\Requests\API\Transaction\Deposit\Environment;
 
 class DeleteRequest extends Environment
 {

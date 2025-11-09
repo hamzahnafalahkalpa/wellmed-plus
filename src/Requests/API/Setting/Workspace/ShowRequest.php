@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Workspace;
+namespace Projects\WellmedPlus\Requests\API\Setting\Workspace;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

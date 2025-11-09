@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Examination\MonitoringCategory;
+namespace Projects\WellmedPlus\Requests\API\Setting\Examination\MonitoringCategory;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

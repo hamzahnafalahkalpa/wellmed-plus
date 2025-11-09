@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use Projects\Klinik\Controllers\API\Transaction\PointOfSale\{
+use Projects\WellmedPlus\Controllers\API\Transaction\PointOfSale\{
     Billing\Invoice\InvoiceController,
     Billing\BillingController,
     PointOfSaleController

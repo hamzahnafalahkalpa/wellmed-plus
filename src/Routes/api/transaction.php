@@ -18,6 +18,5 @@ Route::group([
 ],function() {
     include_once(__DIR__."/transaction/point-of-sale.php");
     include_once(__DIR__."/transaction/billing.php");
-    include_once(__DIR__."/transaction/invoice.php");
-    include_once(__DIR__."/transaction/deposit.php");
+    // include_once(__DIR__."/transaction/invoice.php");
 });

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\ExternalFacility;
+namespace Projects\WellmedPlus\Requests\API\Setting\ExternalFacility;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

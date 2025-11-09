@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Patient\VisitPatient\VisitRegistration\VisitExamination\Assessment;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Patient\VisitPatient\VisitRegistration\VisitExamination\Assessment;
 
-use Projects\Klinik\Requests\API\VisitRegistration\VisitExamination\Assessment\Environment;
+use Projects\WellmedPlus\Requests\API\VisitRegistration\VisitExamination\Assessment\Environment;
 
 class ViewRequest extends Environment
 {

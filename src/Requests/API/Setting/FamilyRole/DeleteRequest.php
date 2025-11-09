@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\FamilyRole;
+namespace Projects\WellmedPlus\Requests\API\Setting\FamilyRole;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

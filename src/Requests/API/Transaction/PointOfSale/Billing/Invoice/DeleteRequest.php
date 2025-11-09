@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Transaction\PointOfSale\Billing\Invoice;
+namespace Projects\WellmedPlus\Requests\API\Transaction\PointOfSale\Billing\Invoice;
 
-use Projects\Klinik\Requests\API\Transaction\Invoice\Environment;
+use Projects\WellmedPlus\Requests\API\Transaction\Invoice\Environment;
 
 class DeleteRequest extends Environment
 {

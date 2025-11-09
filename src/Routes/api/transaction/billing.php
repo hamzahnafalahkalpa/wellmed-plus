@@ -2,10 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-use Projects\Klinik\Controllers\API\Transaction\Billing\{
+use Projects\WellmedPlus\Controllers\API\Transaction\Billing\{
     BillingController
 };
-use Projects\Klinik\Controllers\API\Transaction\Billing\Invoice\InvoiceController;
+use Projects\WellmedPlus\Controllers\API\Transaction\Billing\Invoice\InvoiceController;
 
 /*
 |--------------------------------------------------------------------------

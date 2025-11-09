@@ -1,15 +1,17 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\Patient;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\Patient;
 
-use Hanafalah\ModulePatient\Contracts\Schemas\Patient;
-use Projects\Klinik\Controllers\API\ApiController as ApiBaseController;
+use Projects\WellmedPlus\Contracts\Schemas\ModulePatient\Patient;
+use Projects\WellmedPlus\Controllers\API\ApiController as ApiBaseController;
 
 class EnvironmentController extends ApiBaseController{
 
     public function __construct(
         protected Patient $__schema,
-    ){}
+    ){
+        parent::__construct();
+    }
 
     protected function recombineRequest(){
         if (isset(request()->search_value)){

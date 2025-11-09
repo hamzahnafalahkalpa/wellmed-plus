@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PharmacyDepartment\Dispense\VisitExamination\Assessment;
+namespace Projects\WellmedPlus\Controllers\API\PharmacyDepartment\Dispense\VisitExamination\Assessment;
 
 use Illuminate\Support\Str;
-use Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\Assessment\EnvironmentController;
-use Projects\Klinik\Requests\API\PharmacyDepartment\Dispense\VisitExamination\Assessment\{
+use Projects\WellmedPlus\Controllers\API\PatientEmr\VisitExamination\Assessment\EnvironmentController;
+use Projects\WellmedPlus\Requests\API\PharmacyDepartment\Dispense\VisitExamination\Assessment\{
     ViewRequest, StoreRequest, ShowRequest
 };
 

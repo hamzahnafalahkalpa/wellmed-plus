@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Coa;
+namespace Projects\WellmedPlus\Requests\API\Setting\Coa;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

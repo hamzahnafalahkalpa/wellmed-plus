@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Navigation\Attendence;
+namespace Projects\WellmedPlus\Controllers\API\Navigation\Attendence;
 
 use Hanafalah\ModuleEmployee\Contracts\Schemas\Attendence;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Navigation\Attendence\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Navigation\Attendence\{
     ViewRequest, StoreRequest
 };
 

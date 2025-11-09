@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Occupation;
+namespace Projects\WellmedPlus\Requests\API\Setting\Occupation;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

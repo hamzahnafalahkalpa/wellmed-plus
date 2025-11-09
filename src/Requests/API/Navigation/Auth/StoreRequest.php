@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Navigation\Auth;
+namespace Projects\WellmedPlus\Requests\API\Navigation\Auth;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Illuminate\Validation\Rule;

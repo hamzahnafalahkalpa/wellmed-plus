@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Examination\AllergyStuff;
+namespace Projects\WellmedPlus\Requests\API\Setting\Examination\AllergyStuff;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

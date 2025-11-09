@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\VisitRegistration\Referral;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\VisitRegistration\Referral;
 
-use Projects\Klinik\Controllers\API\PatientEmr\Referral\EnvironmentController as EnvEnvironmentController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\Referral\EnvironmentController as EnvEnvironmentController;
 
 class EnvironmentController extends EnvEnvironmentController{
     protected function commonRequest(){

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Contracts\Data\ModulePatient;
+namespace Projects\WellmedPlus\Contracts\Data\ModulePatient;
 
 use Hanafalah\ModulePatient\Contracts\Data\PractitionerEvaluationData as DataPractitionerEvaluationData;
 

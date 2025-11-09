@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Commands;
+namespace Projects\WellmedPlus\Commands;
 
 use Illuminate\Support\Facades\Artisan;
 
@@ -10,7 +10,7 @@ class SeedCommand extends EnvironmentCommand{
      *
      * @var string
      */
-    protected $signature = 'klinik:seed {class? : Class name of the seeder}';
+    protected $signature = 'wellmed-plus:seed {class? : Class name of the seeder}';
 
 
     /**
@@ -27,7 +27,7 @@ class SeedCommand extends EnvironmentCommand{
     {
         $class = $this->argument('class') ?? "DatabaseSeeder";
         Artisan::call('db:seed',[
-            '--class' => "Projects\Klinik\\Database\Seeders\\$class"
+            '--class' => "Projects\WellmedPlus\\Database\Seeders\\$class"
         ]);   
     }
 }

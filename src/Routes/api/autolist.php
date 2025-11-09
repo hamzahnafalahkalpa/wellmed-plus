@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Projects\Klinik\Controllers\API\Unicode\Autolist\AutolistController;
+use Projects\WellmedPlus\Controllers\API\Unicode\Autolist\AutolistController;
 
 /*
 |--------------------------------------------------------------------------

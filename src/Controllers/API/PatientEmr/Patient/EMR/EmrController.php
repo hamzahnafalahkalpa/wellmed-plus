@@ -1,15 +1,15 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\Patient\EMR;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\Patient\EMR;
 
 use Barryvdh\DomPDF\Facade\Pdf;
 use Gii\ModuleExamination\Contracts\Examination\Assessment\Assessment;
 use Illuminate\Http\Request;
-use Projects\Klinik\Requests\API\PatientEmr\Patient\EMR\{
+use Projects\WellmedPlus\Requests\API\PatientEmr\Patient\EMR\{
     ShowRequest,ViewRequest
 };
 use Illuminate\Support\Str;
-use Projects\Klinik\Controllers\API\ApiController as ApiBaseController;
+use Projects\WellmedPlus\Controllers\API\ApiController as ApiBaseController;
 
 class EmrController extends ApiBaseController {
 

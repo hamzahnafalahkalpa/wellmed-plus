@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 use Hanafalah\ModuleMedicalTreatment\Contracts\Schemas\MedicalTreatment as SchemasMedicalTreatment;
-use Projects\Klinik\Requests\API\Setting\MedicalTreatment\{
+use Projects\WellmedPlus\Requests\API\Setting\MedicalTreatment\{
     ViewRequest, StoreRequest, DeleteRequest, ShowRequest
 };
 class MedicalTreatmentController extends ApiController{

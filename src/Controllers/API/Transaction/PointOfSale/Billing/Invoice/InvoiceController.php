@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\PointOfSale\Billing\Invoice;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\PointOfSale\Billing\Invoice;
 
-use Projects\Klinik\Requests\API\Transaction\PointOfSale\Billing\Invoice\{
+use Projects\WellmedPlus\Requests\API\Transaction\PointOfSale\Billing\Invoice\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
-use Projects\Klinik\Controllers\API\Transaction\Invoice\EnvironmentController;
+use Projects\WellmedPlus\Controllers\API\Transaction\Invoice\EnvironmentController;
 
 class InvoiceController extends EnvironmentController{
     protected function commonConditional($query){

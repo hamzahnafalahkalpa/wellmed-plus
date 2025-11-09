@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\ItemManagement\SupplyChain\PurchaseOrder;
+namespace Projects\WellmedPlus\Controllers\API\ItemManagement\SupplyChain\PurchaseOrder;
 
 use Hanafalah\ModuleProcurement\Contracts\Schemas\PurchaseOrder;
 use Illuminate\Http\Request;
-use Projects\Klinik\Controllers\API\ItemManagement\SupplyChain\ProcurementController;
-use Projects\Klinik\Requests\API\ItemManagement\SupplyChain\PurchaseOrder\{
+use Projects\WellmedPlus\Controllers\API\ItemManagement\SupplyChain\ProcurementController;
+use Projects\WellmedPlus\Requests\API\ItemManagement\SupplyChain\PurchaseOrder\{
     ViewRequest, ShowRequest
 };
 

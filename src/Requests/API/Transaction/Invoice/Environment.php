@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Transaction\Invoice;
+namespace Projects\WellmedPlus\Requests\API\Transaction\Invoice;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

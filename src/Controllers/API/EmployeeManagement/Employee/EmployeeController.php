@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\EmployeeManagement\Employee;
+namespace Projects\WellmedPlus\Controllers\API\EmployeeManagement\Employee;
 
 use Hanafalah\ModuleEmployee\Contracts\Schemas\Employee;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\EmployeeManagement\Employee\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\EmployeeManagement\Employee\{
     ViewRequest, StoreRequest, ShowRequest,
     DeleteRequest
 };

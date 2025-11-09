@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Models\ModuleEmployee;
+namespace Projects\WellmedPlus\Models\ModuleEmployee;
 
 use Hanafalah\LaravelHasProps\Models\Scopes\HasCurrentScope;
 use Hanafalah\ModuleEmployee\Models\Employee\Employee as EmployeeEmployee;
 use Illuminate\Database\Eloquent\Model;
-use Projects\Klinik\Transformers\Employee\{ViewEmployee, ShowEmployee};
+use Projects\WellmedPlus\Transformers\Employee\{ViewEmployee, ShowEmployee};
 
 class Employee extends EmployeeEmployee{
     public function getShowResource(){

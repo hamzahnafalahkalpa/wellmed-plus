@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Transaction\PointOfSale;
+namespace Projects\WellmedPlus\Requests\API\Transaction\PointOfSale;
 
-use Projects\Klinik\Requests\API\Transaction\Environment;
+use Projects\WellmedPlus\Requests\API\Transaction\Environment;
 
 class ShowRequest extends Environment
 {

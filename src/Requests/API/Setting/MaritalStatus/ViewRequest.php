@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\MaritalStatus;
+namespace Projects\WellmedPlus\Requests\API\Setting\MaritalStatus;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

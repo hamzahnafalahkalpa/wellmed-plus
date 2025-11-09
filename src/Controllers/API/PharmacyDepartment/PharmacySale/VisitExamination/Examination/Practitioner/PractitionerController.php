@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination\Practitioner;
+namespace Projects\WellmedPlus\Controllers\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination\Practitioner;
 
-use Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\Examination\Practitioner\EnvironmentController;
-use Projects\Klinik\Requests\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination\Practitioner\{
+use Projects\WellmedPlus\Controllers\API\PatientEmr\VisitExamination\Examination\Practitioner\EnvironmentController;
+use Projects\WellmedPlus\Requests\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination\Practitioner\{
     StoreRequest, ShowRequest, ViewRequest, DeleteRequest
 };
 

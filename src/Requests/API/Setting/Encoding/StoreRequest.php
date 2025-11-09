@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Encoding;
+namespace Projects\WellmedPlus\Requests\API\Setting\Encoding;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Illuminate\Validation\Rule;
@@ -25,11 +25,8 @@ class StoreRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'id'    => ['nullable',$this->idValidation('Encoding')],
-            'name'  => ['required','string'],
-            'flag'  => ['required',Rule::in(
-                array_column(config('module-encoding.encodings'),'flag')
-            )]
+            // 'id'    => ['nullable',$this->idValidation('Encoding')],
+            // 'name'  => ['required','string']
         ];
     }
 }

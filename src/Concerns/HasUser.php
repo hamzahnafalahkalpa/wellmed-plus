@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Concerns;
+namespace Projects\WellmedPlus\Concerns;
 
 use Hanafalah\ApiHelper\Facades\ApiAccess;
 
@@ -35,8 +35,9 @@ trait HasUser
                     if (isset($this->global_employee->room)) $this->global_room = $this->global_employee->room;
                 }
     
-                $workspace = &$user_reference->workspace;
-                if(isset($workspace)) {
+                $tenant = $user_reference->workspace;
+                if(isset($tenant)) {
+                    $workspace = $tenant->reference;
                     $this->global_workspace = $workspace;
     
                     if (isset($workspace->setting)){

@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Menu;
+namespace Projects\WellmedPlus\Controllers\API\Menu;
 
 use Hanafalah\LaravelPermission\Contracts\Schemas\Menu;
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 
 class MenuController extends ApiController{
     public function __construct(

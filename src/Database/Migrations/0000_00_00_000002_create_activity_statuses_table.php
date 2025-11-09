@@ -28,11 +28,11 @@ return new class extends Migration
         $this->isNotTableExists(function(){
             $table_name = $this->__table->getTableName();
             Schema::create($table_name, function (Blueprint $table) {
-                $activity = app(config('database.models.Activity', CentralActivity::class));
+                $activity = app(config('database.models.CentralActivity', CentralActivity::class));
 
                 $table->ulid('id')->primary();
                 $table->foreignIdFor($activity::class, 'activity_id')->nullable()->index()
-                    ->constrained('activities', 'id')->cascadeOnUpdate()->cascadeOnDelete();
+                    ->cascadeOnUpdate()->cascadeOnDelete();
                 $table->unsignedBigInteger('status');
                 $table->unsignedTinyInteger('active')->default(1);
                 $table->text('message');

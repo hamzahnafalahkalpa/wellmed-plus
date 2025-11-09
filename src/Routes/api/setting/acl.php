@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Projects\Klinik\Controllers\API\Setting\{
+use Projects\WellmedPlus\Controllers\API\Setting\{
     RoleController, PermissionController
 };
 

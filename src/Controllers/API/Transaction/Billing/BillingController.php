@@ -1,13 +1,14 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Transaction\Billing;
+namespace Projects\WellmedPlus\Controllers\API\Transaction\Billing;
 
-use Projects\Klinik\Requests\API\Transaction\Billing\{
+use Projects\WellmedPlus\Requests\API\Transaction\Billing\{
     ViewRequest, ShowRequest
 };
 
 class BillingController extends EnvironmentController{
     protected function commonConditional($query){
+        parent::commonConditional($query);
         $query->whereNotNull('reported_at');
     }
 

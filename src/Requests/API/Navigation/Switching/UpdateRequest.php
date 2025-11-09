@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Navigation\Switching;
+namespace Projects\WellmedPlus\Requests\API\Navigation\Switching;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Illuminate\Validation\Rule;

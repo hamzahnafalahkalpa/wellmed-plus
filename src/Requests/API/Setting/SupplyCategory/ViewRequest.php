@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\SupplyCategory;
+namespace Projects\WellmedPlus\Requests\API\Setting\SupplyCategory;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

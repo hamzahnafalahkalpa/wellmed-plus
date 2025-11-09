@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Contracts\Data\ModuleWarehouse;
+namespace Projects\WellmedPlus\Contracts\Data\ModuleWarehouse;
 
 use Hanafalah\ModuleWarehouse\Contracts\Data\RoomData as DataRoomData;
 

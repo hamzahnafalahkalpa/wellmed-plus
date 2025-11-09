@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Commands;
+namespace Projects\WellmedPlus\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
@@ -13,14 +13,14 @@ class MigrateCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'klinik:migrate {--seed}';
+    protected $signature = 'wellmed-plus:migrate {--seed}';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Run migrations for the Klinik project';
+    protected $description = 'Run migrations for the WellmedPlus project';
 
     /**
      * Execute the console command.
@@ -66,11 +66,11 @@ class MigrateCommand extends Command
             }
         }
 
-        $this->info("Migrations for Klinik project have been successfully executed.");
+        $this->info("Migrations for WellmedPlus project have been successfully executed.");
 
         if ($this->option('seed')){
             $this->info("Run seeding");
-            Artisan::call('klinik:seed');
+            Artisan::call('wellmed-plus:seed');
             $this->info("Seeded");
         }
         return Command::SUCCESS;

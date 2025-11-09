@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Examination\GcsStuff;
+namespace Projects\WellmedPlus\Requests\API\Setting\Examination\GcsStuff;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

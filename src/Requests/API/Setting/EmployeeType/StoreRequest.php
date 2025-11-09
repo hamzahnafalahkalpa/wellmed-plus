@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\EmployeeType;
+namespace Projects\WellmedPlus\Requests\API\Setting\EmployeeType;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModuleProfession\Enums\Profession\Flag;

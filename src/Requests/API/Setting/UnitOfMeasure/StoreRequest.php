@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\UnitOfMeasure;
+namespace Projects\WellmedPlus\Requests\API\Setting\UnitOfMeasure;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

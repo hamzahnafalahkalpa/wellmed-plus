@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\RoomItemCategory;
+namespace Projects\WellmedPlus\Requests\API\Setting\RoomItemCategory;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

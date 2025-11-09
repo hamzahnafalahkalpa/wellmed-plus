@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr;
 
 use Hanafalah\ModuleExamination\Contracts\Schemas\Examination;
 use Hanafalah\ModuleExamination\Contracts\Schemas\Examination\Assessment\Assessment;
@@ -12,7 +12,7 @@ use Hanafalah\ModulePatient\Contracts\Schemas\{
     VisitRegistration
 };
 use Hanafalah\ModulePharmacy\Contracts\Schemas\PharmacySale;
-use Projects\Klinik\Controllers\API\ApiController as ApiBaseController;
+use Projects\WellmedPlus\Controllers\API\ApiController as ApiBaseController;
 
 class EnvironmentController extends ApiBaseController{
 
@@ -28,7 +28,6 @@ class EnvironmentController extends ApiBaseController{
     )
     {
         parent::__construct();   
-        $this->userAttempt();
     }
 
     protected function commonConditional($query){
@@ -36,7 +35,7 @@ class EnvironmentController extends ApiBaseController{
     }
 
     protected function commonRequest(){
-        
+        $this->userAttempt();
     }
 
     protected function isEmployee(): bool{

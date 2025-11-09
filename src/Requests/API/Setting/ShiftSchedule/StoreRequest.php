@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\ShiftSchedule;
+namespace Projects\WellmedPlus\Requests\API\Setting\ShiftSchedule;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 use Hanafalah\ModuleProfession\Enums\Profession\Flag;

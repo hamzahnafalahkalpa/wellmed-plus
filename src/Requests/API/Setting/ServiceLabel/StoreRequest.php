@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\ServiceLabel;
+namespace Projects\WellmedPlus\Requests\API\Setting\ServiceLabel;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

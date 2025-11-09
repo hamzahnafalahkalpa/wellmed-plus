@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Navigation\Auth;
+namespace Projects\WellmedPlus\Controllers\API\Navigation\Auth;
 
 use Hanafalah\ModuleUser\Contracts\Schemas\User;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Navigation\Auth\StoreRequest;
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Navigation\Auth\StoreRequest;
 
 class UpdatePasswordController extends ApiController{
     public function __construct(

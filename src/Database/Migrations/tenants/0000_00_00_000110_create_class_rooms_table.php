@@ -1,7 +1,6 @@
 <?php
 
 use Hanafalah\MicroTenant\Concerns\Tenant\NowYouSeeMe;
-use Hanafalah\ModuleTreatment\Enums\Treatment\TreatmentStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -32,8 +31,7 @@ return new class extends Migration
             Schema::create($table_name, function (Blueprint $table) {
                 $table->ulid('id')->primary();
                 $table->string('name')->nullable(false);
-                $table->string('room_number')->nullable(true);
-                $table->string('status',50);
+                $table->string('status',50)->default('ACTIVE');
                 $table->json('props')->nullable();
                 $table->timestamps();
                 $table->softDeletes();

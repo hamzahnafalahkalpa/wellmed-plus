@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\DosageForm;
+namespace Projects\WellmedPlus\Requests\API\Setting\DosageForm;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Navigation\DigitalSign;
+namespace Projects\WellmedPlus\Controllers\API\Navigation\DigitalSign;
 
 use Hanafalah\ModuleEmployee\Contracts\Schemas\Employee;
 use Hanafalah\ModuleHandwriting\Contracts\Schemas\DigitalSign;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Navigation\DigitalSign\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Navigation\DigitalSign\{
     ViewRequest, StoreRequest
 };
 

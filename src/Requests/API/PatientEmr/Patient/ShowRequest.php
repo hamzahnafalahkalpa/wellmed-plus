@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Patient;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Patient;
 
 class ShowRequest extends PatientEnvironment
 {

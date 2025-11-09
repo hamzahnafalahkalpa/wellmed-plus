@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Navigation\AbsenceRequest;
+namespace Projects\WellmedPlus\Requests\API\Navigation\AbsenceRequest;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

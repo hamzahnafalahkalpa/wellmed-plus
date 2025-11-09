@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Concerns;
+namespace Projects\WellmedPlus\Concerns;
 
 use Illuminate\Support\Str;
 

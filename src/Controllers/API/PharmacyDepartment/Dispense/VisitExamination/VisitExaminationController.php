@@ -1,11 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PharmacyDepartment\Dispense\VisitExamination;
+namespace Projects\WellmedPlus\Controllers\API\PharmacyDepartment\Dispense\VisitExamination;
 
-use Projects\Klinik\Requests\API\PharmacyDepartment\Dispense\VisitExamination\{
+use Projects\WellmedPlus\Requests\API\PharmacyDepartment\Dispense\VisitExamination\{
     ViewRequest, ShowRequest
 };
-use Projects\Klinik\Controllers\API\PatientEmr\VisitExamination\EnvironmentController;
+use Projects\WellmedPlus\Controllers\API\PatientEmr\VisitExamination\EnvironmentController;
 
 class VisitExaminationController extends EnvironmentController
 {

@@ -1,13 +1,11 @@
 <?php
 
-namespace Projects\Klinik\Controllers;
+namespace Projects\WellmedPlus\Controllers;
 
 use App\Http\Controllers\Controller as MainController;
-use Inertia\Inertia;
-use Projects\Klinik\Concerns\HasInertiaRenderer;
-use Projects\Klinik\Concerns\HasUser;
+use Projects\WellmedPlus\Concerns\HasUser;
 
 abstract class Controller extends MainController
 {
-    use HasUser, HasInertiaRenderer;
+    use HasUser;
 }

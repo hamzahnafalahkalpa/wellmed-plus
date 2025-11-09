@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Models\ModuleWarehouse\Room;
+namespace Projects\WellmedPlus\Models\ModuleWarehouse\Room;
 
 use Hanafalah\ModuleWarehouse\Models\Building\Room as BuildingRoom;
-use Projects\Klinik\Transformers\Room\ShowRoom;
-use Projects\Klinik\Transformers\Room\ViewRoom;
+use Projects\WellmedPlus\Transformers\Room\ShowRoom;
+use Projects\WellmedPlus\Transformers\Room\ViewRoom;
 
 class Room extends BuildingRoom
 {

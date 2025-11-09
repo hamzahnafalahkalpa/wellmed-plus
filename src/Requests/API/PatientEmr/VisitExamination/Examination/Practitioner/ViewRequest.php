@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\VisitExamination\Examination\Practitioner;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\VisitExamination\Examination\Practitioner;
 
 class ViewRequest extends Environment
 {

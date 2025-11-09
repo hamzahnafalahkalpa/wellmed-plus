@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\ItemManagement\SupplyChain\PurchaseRequest;
+namespace Projects\WellmedPlus\Requests\API\ItemManagement\SupplyChain\PurchaseRequest;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

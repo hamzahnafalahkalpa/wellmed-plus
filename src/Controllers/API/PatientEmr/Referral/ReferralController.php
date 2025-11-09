@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\Referral;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\Referral;
 
-use Projects\Klinik\Requests\API\PatientEmr\Referral\{
+use Projects\WellmedPlus\Requests\API\PatientEmr\Referral\{
     ViewRequest, ShowRequest, StoreRequest, DeleteRequest
 };
 

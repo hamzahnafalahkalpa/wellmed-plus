@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\ProgramCategory;
+namespace Projects\WellmedPlus\Requests\API\Setting\ProgramCategory;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

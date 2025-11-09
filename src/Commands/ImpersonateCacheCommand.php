@@ -1,12 +1,12 @@
 <?php
 
-namespace Projects\Klinik\Commands;
+namespace Projects\WellmedPlus\Commands;
 
 use Hanafalah\MicroTenant\Commands\Impersonate\ImpersonateCacheCommand as ImpersonateImpersonateCacheCommand;
 
 class ImpersonateCacheCommand extends ImpersonateImpersonateCacheCommand
 {
-    protected $signature = 'klinik:impersonate-cache 
+    protected $signature = 'wellmed-plus:impersonate-cache 
                                 {--forget : Forgets the current cache}
                                 {--app_id= : The id of the application}
                                 {--group_id= : The id of the group}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Encoding;
+namespace Projects\WellmedPlus\Requests\API\Setting\Encoding;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

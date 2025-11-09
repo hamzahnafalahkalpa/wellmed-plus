@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\VisitExamination;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\VisitExamination;
 
 class DeleteRequest extends EnvironmentRequest
 {

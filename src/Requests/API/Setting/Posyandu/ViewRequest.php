@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Posyandu;
+namespace Projects\WellmedPlus\Requests\API\Setting\Posyandu;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

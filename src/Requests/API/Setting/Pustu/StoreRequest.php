@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\Pustu;
+namespace Projects\WellmedPlus\Requests\API\Setting\Pustu;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

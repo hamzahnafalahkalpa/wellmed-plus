@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\MedicalNetUnit;
+namespace Projects\WellmedPlus\Requests\API\Setting\MedicalNetUnit;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

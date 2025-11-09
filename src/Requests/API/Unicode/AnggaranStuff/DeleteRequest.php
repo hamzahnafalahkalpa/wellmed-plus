@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Unicode\AnggaranStuff;
+namespace Projects\WellmedPlus\Requests\API\Unicode\AnggaranStuff;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 

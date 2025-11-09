@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Models\ModulePatient\EMR;
+namespace Projects\WellmedPlus\Models\ModulePatient\EMR;
 
 use Hanafalah\ModulePatient\Models\EMR\VisitExamination as EMRVisitExamination;
 

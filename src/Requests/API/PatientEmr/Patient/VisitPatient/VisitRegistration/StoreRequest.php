@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Patient\VisitPatient\VisitRegistration;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Patient\VisitPatient\VisitRegistration;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitPatient\EnvironmentRequest;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitPatient\EnvironmentRequest;
 
 class StoreRequest extends EnvironmentRequest
 {

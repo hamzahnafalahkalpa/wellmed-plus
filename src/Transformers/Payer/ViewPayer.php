@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Transformers\Payer;
+namespace Projects\WellmedPlus\Transformers\Payer;
 
 use Hanafalah\ModulePayer\Resources\Payer\ViewPayer as PayerViewPayer;
 

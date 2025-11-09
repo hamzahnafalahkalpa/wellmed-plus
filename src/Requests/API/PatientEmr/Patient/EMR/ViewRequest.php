@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PatientEmr\Patient\EMR;
+namespace Projects\WellmedPlus\Requests\API\PatientEmr\Patient\EMR;
 
 use Illuminate\Validation\Rule;
-use Projects\Klinik\Requests\API\PatientEmr\Patient\EMR\PatientEnvironment;
+use Projects\WellmedPlus\Requests\API\PatientEmr\Patient\EMR\PatientEnvironment;
 
 class ViewRequest extends PatientEnvironment
 {

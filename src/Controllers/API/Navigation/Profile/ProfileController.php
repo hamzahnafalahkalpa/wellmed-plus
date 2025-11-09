@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Navigation\Profile;
+namespace Projects\WellmedPlus\Controllers\API\Navigation\Profile;
 
 use Hanafalah\ModuleEmployee\Contracts\Schemas\ProfileEmployee;
-use Projects\Klinik\Controllers\API\ApiController;
-use Projects\Klinik\Requests\API\Navigation\Profile\{
+use Projects\WellmedPlus\Controllers\API\ApiController;
+use Projects\WellmedPlus\Requests\API\Navigation\Profile\{
     ShowRequest, StoreRequest
 };
 

@@ -19,15 +19,5 @@ Route::group([
     "as"     => "patient-emr.",
 ],function() {
     include_once(__DIR__."/patient-emr/patient.php");
-    include_once(__DIR__."/patient-emr/visit-patient.php");
     include_once(__DIR__."/patient-emr/visit-registration.php");
-    include_once(__DIR__."/patient-emr/visit-examination.php");
-    include_once(__DIR__."/patient-emr/nurse-station.php");
-    include_once(__DIR__."/patient-emr/emergency-unit.php");
-    include_once(__DIR__."/patient-emr/verlos-kamer.php");
-    include_once(__DIR__."/patient-emr/visit-pustu.php");
-    include_once(__DIR__."/patient-emr/visit-posyandu.php");
-    include_once(__DIR__."/patient-emr/medical-checkup.php");
-    include_once(__DIR__."/patient-emr/referral.php");
-    include_once(__DIR__."/patient-emr/inpatient.php");
 });

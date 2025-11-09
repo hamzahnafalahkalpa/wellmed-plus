@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\PatientEmr\VisitPatient\VisitRegistration;
+namespace Projects\WellmedPlus\Controllers\API\PatientEmr\VisitPatient\VisitRegistration;
 
-use Projects\Klinik\Controllers\API\PatientEmr\VisitRegistration\EnvironmentController;
-use Projects\Klinik\Requests\API\PatientEmr\VisitPatient\VisitRegistration\{
+use Projects\WellmedPlus\Controllers\API\PatientEmr\VisitRegistration\EnvironmentController;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitPatient\VisitRegistration\{
     ViewRequest
 };
 

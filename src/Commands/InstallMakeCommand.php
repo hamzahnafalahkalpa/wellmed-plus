@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Commands;
+namespace Projects\WellmedPlus\Commands;
 
 class InstallMakeCommand extends EnvironmentCommand
 {
@@ -9,7 +9,7 @@ class InstallMakeCommand extends EnvironmentCommand
      *
      * @var string
      */
-    protected $signature = 'klinik:install';
+    protected $signature = 'wellmed-plus:install';
 
 
     /**
@@ -24,14 +24,14 @@ class InstallMakeCommand extends EnvironmentCommand
      */
     public function handle()
     {
-        $provider = 'Projects\Klinik\KlinikServiceProvider';
+        $provider = 'Projects\WellmedPlus\WellmedPlusServiceProvider';
 
         $this->comment('Installing Module...');
         $this->callSilent('vendor:publish', [
             '--provider' => $provider,
             '--tag'      => 'config'
         ]);
-        $this->info('✔️  Created config/klinik.php');
+        $this->info('✔️  Created config/wellmed-plus.php');
 
         $this->callSilent('vendor:publish', [
             '--provider' => $provider,
@@ -39,6 +39,6 @@ class InstallMakeCommand extends EnvironmentCommand
         ]);
         $this->info('✔️  Created migrations');
 
-        $this->comment('projects/klinik installed successfully.');
+        $this->comment('projects/wellmed-plus installed successfully.');
     }
 }

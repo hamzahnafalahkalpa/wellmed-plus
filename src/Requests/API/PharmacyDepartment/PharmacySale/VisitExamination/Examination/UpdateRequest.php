@@ -1,8 +1,8 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination;
+namespace Projects\WellmedPlus\Requests\API\PharmacyDepartment\PharmacySale\VisitExamination\Examination;
 
-use Projects\Klinik\Requests\API\PatientEmr\VisitExamination\EnvironmentRequest as Environment;
+use Projects\WellmedPlus\Requests\API\PatientEmr\VisitExamination\EnvironmentRequest as Environment;
 
 class UpdateRequest extends Environment
 {

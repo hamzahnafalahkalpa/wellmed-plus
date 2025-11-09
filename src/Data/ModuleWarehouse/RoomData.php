@@ -1,10 +1,10 @@
 <?php
 
-namespace Projects\Klinik\Data\ModuleWarehouse;
+namespace Projects\WellmedPlus\Data\ModuleWarehouse;
 
 use Hanafalah\ModuleMedicService\Enums\Label;
 use Hanafalah\ModuleWarehouse\Data\RoomData as DataRoomData;
-use Projects\Klinik\Contracts\Data\ModuleWarehouse\RoomData as DataModuleWarehouseRoomData;
+use Projects\WellmedPlus\Contracts\Data\ModuleWarehouse\RoomData as DataModuleWarehouseRoomData;
 use Spatie\LaravelData\Attributes\MapInputName;
 use Spatie\LaravelData\Attributes\MapName;
 

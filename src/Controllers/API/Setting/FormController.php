@@ -1,9 +1,9 @@
 <?php
 
-namespace Projects\Klinik\Controllers\API\Setting;
+namespace Projects\WellmedPlus\Controllers\API\Setting;
 
 use Hanafalah\ModuleExamination\Contracts\Schemas\Form\Form;
-use Projects\Klinik\Controllers\API\ApiController;
+use Projects\WellmedPlus\Controllers\API\ApiController;
 use Illuminate\Http\Request;
 
 class FormController extends ApiController{

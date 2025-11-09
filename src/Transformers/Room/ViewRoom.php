@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Transformers\Room;
+namespace Projects\WellmedPlus\Transformers\Room;
 
 use Hanafalah\ModuleWarehouse\Resources\Room\ViewRoom as RoomViewRoom;
 

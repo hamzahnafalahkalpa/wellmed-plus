@@ -1,6 +1,6 @@
 <?php
 
-namespace Projects\Klinik\Requests\API\Setting\SellingForm;
+namespace Projects\WellmedPlus\Requests\API\Setting\SellingForm;
 
 use Hanafalah\LaravelSupport\Requests\FormRequest;
 
