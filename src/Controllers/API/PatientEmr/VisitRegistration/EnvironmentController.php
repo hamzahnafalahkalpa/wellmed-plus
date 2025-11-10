@@ -41,6 +41,12 @@ class EnvironmentController extends EnvEnvironmentController{
 
     protected function storeVisitRegistration(?callable $callback = null){
         $this->commonRequest();
+        if (isset($this->global_room)){
+            request()->merge([
+                'warehouse_type' => $this->global_room->getMorphClass(),
+                'warehouse_id' => $this->global_room->getKey()
+            ]);
+        }
         return $this->__visit_registration_schema->conditionals(function($query) use ($callback){
             $this->commonConditional($query);
             $callback($query);
