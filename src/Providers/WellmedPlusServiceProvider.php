@@ -75,7 +75,6 @@ class WellmedPlusServiceProvider extends WellmedPlusEnvironment
                     });
                 }
             } catch (\Throwable $th) {
-                dd($th->getMessage());
             }
         });
     }    
