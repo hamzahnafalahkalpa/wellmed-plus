@@ -21,15 +21,6 @@
             ]
         }
     },
-    "require": {
-        "wellmed-plus/ms-plus-emr": "dev-main",
-        "wellmed-plus/ms-plus-point-of-sale": "dev-main",
-        "wellmed-plus/ms-plus-scm": "dev-main",
-        "wellmed-plus/ms-plus-hr": "dev-main",
-        "wellmed-plus/ms-plus-apotek": "dev-main",
-        "wellmed-plus/ms-plus-organization": "dev-main",
-        "hanafalah/satu-sehat": "dev-main"
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
